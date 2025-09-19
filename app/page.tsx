@@ -8,32 +8,32 @@ import { Badge } from "@/components/ui/badge"
 const products = [
   {
     id: 1,
-    name: "Discord Nitro",
+    name: "Discord Nitro ID - Trial Claimed ",
     description: "Unlock premium Discord features with full Nitro subscription",
-    price: "$9.99",
+    price: "$0.50",
     period: "/month",
-    features: ["Higher quality screen share", "Custom emojis everywhere", "100MB file uploads", "HD video calls"],
+    features: ["Higher quality screen share", "Custom emojis everywhere", "500MB file uploads", "HD video calls"],
     icon: Crown,
     popular: true,
     gradient: "from-purple-600 to-blue-600",
   },
   {
     id: 2,
-    name: "Nitro Basic",
+    name: "Nitro Boost Gift Link",
     description: "Essential Discord upgrades at an affordable price",
-    price: "$2.99",
+    price: "SOON",
     period: "/month",
-    features: ["Custom emojis everywhere", "50MB file uploads", "HD video calls", "Custom app icons"],
+    features: ["Higher quality screen share", "Custom emojis everywhere", "500MB file uploads", "HD video calls"],
     icon: Zap,
     popular: false,
     gradient: "from-blue-500 to-cyan-500",
   },
   {
     id: 3,
-    name: "Server Boosts",
+    name: "14x Server Boosts",
     description: "Boost your favorite Discord servers with premium perks",
-    price: "$4.99",
-    period: "/boost",
+    price: "ALSO SOON",
+    period: "/MONTHLY",
     features: ["Higher audio quality", "Custom server banner", "More emoji slots", "Animated server icon"],
     icon: Star,
     popular: false,
@@ -43,8 +43,8 @@ const products = [
     id: 4,
     name: "OwO Currency",
     description: "Premium currency for the popular Discord bot OwO",
-    price: "$1.99",
-    period: "/1000 cowoncy",
+    price: "$1.00",
+    period: "/1,000,000 cowoncy",
     features: ["Instant delivery", "Safe & secure", "24/7 support", "Bulk discounts available"],
     icon: Sparkles,
     popular: false,
@@ -98,7 +98,7 @@ export default function DiscordShop() {
               ⚡ Instant Delivery
             </Badge>
             <Badge variant="secondary" className="bg-blue-600/20 text-blue-300 border-blue-500/30">
-              🛡️ 100% Safe
+              🛡️ 500% Safe
             </Badge>
             <Badge variant="secondary" className="bg-green-600/20 text-green-300 border-green-500/30">
               💎 Best Prices
